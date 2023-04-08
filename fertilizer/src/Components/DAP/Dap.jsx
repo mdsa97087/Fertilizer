@@ -9,10 +9,21 @@ function Dap() {
         alt=""
       />
       <h1>Di-ammonium Phosphate – DAP</h1>
-      <div style={{
-        width:"400px",
-        margin:"auto"
-      }} id="carouselExampleIndicators" className="carousel slide">
+      <h6>
+        Di-ammonium Phosphate popularly known as DAP is a preferred fertilizer
+        in India because it contains both Nitrogen and Phosphorus which are
+        primary macro-nutrients and part of 18 essential plant nutrients.
+      </h6>
+
+      {/*     ```````     SLIDE PART    ~~~~~~~~~~~ */}
+      <div
+        style={{
+          width: "400px",
+          margin: "auto",
+        }}
+        id="carouselExampleIndicators"
+        className="carousel slide"
+      >
         <div className="carousel-indicators">
           <button
             type="button"
@@ -34,13 +45,13 @@ function Dap() {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
-           <button
+          <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
-           <button
+          <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="4"
@@ -125,22 +136,23 @@ function Dap() {
         </button>
       </div>
 
-      <h5>
-        Di-ammonium Phosphate popularly known as DAP is a preferred fertilizer
-        in India because it contains both Nitrogen and Phosphorus which are
-        primary macro-nutrients and part of 18 essential plant nutrients.
-      </h5>
+      <details open>
+        <summary>Description</summary>
+        <p>
+          Di-ammonium Phosphate popularly known as DAP is a preferred fertilizer
+          in India because it contains both Nitrogen and Phosphorus which are
+          primary macro-nutrients and part of 18 essential plant nutrients. DAP
+          (NH4)2HPO4: Fertilizer grade DAP Contains 18% Nitrogen and 46%
+          Phosphorus (P2O5).. DAP is manufactured by reacting Ammonia with
+          Phosphoric acid under controlled conditions in fertilizer plants.
+        </p>
+      </details>
 
-      <h1>Description</h1>
-      <p>
-        Di-ammonium Phosphate popularly known as DAP is a preferred fertilizer
-        in India because it contains both Nitrogen and Phosphorus which are
-        primary macro-nutrients and part of 18 essential plant nutrients. DAP
-        (NH4)2HPO4: Fertilizer grade DAP Contains 18% Nitrogen and 46%
-        Phosphorus (P2O5).. DAP is manufactured by reacting Ammonia with
-        Phosphoric acid under controlled conditions in fertilizer plants.
-      </p>
-      <h1>Efficient Use</h1>
+      <details>
+      <summary>
+      Efficient Use
+      </summary>
+      
       <p>
         Soil Testing: For efficient use of this fertilizer, soil must be tested
         for nitrogen and phosphorus content in order to determine the required
@@ -166,7 +178,12 @@ function Dap() {
         Addition of lime (CaCo3) to acidic soils brings soil pH to neutral. Thus
         P use efficiency is improved.
       </p>
-      <h1>Properties</h1>
+      </details>
+
+      <details>
+      <summary>Properties</summary>
+        
+     
       <p>
         It is a very popular fertilizer because of its excellent physical
         properties and nutrient content. It is free flowing, dust-free and does
@@ -180,6 +197,7 @@ function Dap() {
         PO4. Phosphorus, which is immobile in soil, is not subjected to leaching
         losses.
       </p>
+      </details>
       <img
         src="https://www.kribhco.net/assets/img/product/dap1.png
     "
