@@ -9,31 +9,122 @@ function Dap() {
         alt=""
       />
       <h1>Di-ammonium Phosphate – DAP</h1>
-      <img
-        src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-101375,resizemode-1,msid-69662964/industry/indl-goods/svs/chem-/-fertilisers/government-mulling-over-fixing-nutrient-based-subsidy-rate-for-urea-sources.jpg
+      <div style={{
+        width:"400px",
+        margin:"auto"
+      }} id="carouselExampleIndicators" className="carousel slide">
+        <div className="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            className="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+           <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+           <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img
+              src="https://img.etimg.com/thumb/width-150,height-100,imgsize-101375,resizemode-1,msid-69662964/industry/indl-goods/svs/chem-/-fertilisers/government-mulling-over-fixing-nutrient-based-subsidy-rate-for-urea-sources.jpg
+              "
+              className="d-block w-100"
+              alt="..."
+              width={"250px"}
+              height={"200px"}
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61JmieSgC6S._SX425_.jpg
       "
-        alt=""
-      />
-      <img
-        src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61JmieSgC6S._SX425_.jpg
+              className="d-block w-100"
+              alt="..."
+              width={"250px"}
+              height={"200px"}
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51ms5ZzU7BL._SX425_.jpg
       "
-        alt=""
-      />
-      <img
-        src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51ms5ZzU7BL._SX425_.jpg
+              className="d-block w-100"
+              alt="..."
+              width={"250px"}
+              height={"200px"}
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="https://5.imimg.com/data5/SELLER/Default/2021/10/RH/FC/LK/138763590/93318863-18-46-0-diammonium-phosphate-dap-fertilizers-in-fertilizer-bag--500x500.jpg
       "
-        alt=""
-      />
-      <img
-        src="https://5.imimg.com/data5/SELLER/Default/2021/10/RH/FC/LK/138763590/93318863-18-46-0-diammonium-phosphate-dap-fertilizers-in-fertilizer-bag--500x500.jpg
+              className="d-block w-100"
+              alt="..."
+              width={"250px"}
+              height={"200px"}
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="https://4.imimg.com/data4/VH/PP/ANDROID-34674373/product-500x500.jpeg
       "
-        alt=""
-      />
-      <img
-        src="https://4.imimg.com/data4/VH/PP/ANDROID-34674373/product-500x500.jpeg
-      "
-        alt=""
-      />
+              className="d-block w-100"
+              alt="..."
+              width={"250px"}
+              height={"200px"}
+            />
+          </div>
+        </div>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
+
       <h5>
         Di-ammonium Phosphate popularly known as DAP is a preferred fertilizer
         in India because it contains both Nitrogen and Phosphorus which are
